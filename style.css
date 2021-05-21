@@ -1,0 +1,28 @@
+h1{
+    color:aquamarine;
+    Background-color:blue;
+}
+/* .imageposition{
+    display:left;
+    justify-content: center;
+    align-self:center ;
+    
+
+} */
+.imageposition{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    border:0.5px solid rgb(70, 24, 24)
+
+}
+.text{
+    background-color: black;
+}
+.animal:hover p{
+    opacity:1;
+}
+
+.animal:hover.img{
+    opacity:0.33;
+}
